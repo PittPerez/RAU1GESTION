@@ -15,8 +15,3 @@ jobs:
         run: |
           # Instalar dependencias necesarias para ejecutar pruebas. Por ejemplo, si utilizas npm:
           # npm install
-
-      - name: Run tests
-        run: |
-          # Ejecutar comandos para ejecutar las pruebas en tu aplicación. Por ejemplo, si utilizas Jest para pruebas en JavaScript:
-          # npm test
