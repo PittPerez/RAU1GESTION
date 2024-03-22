@@ -6106,6 +6106,22 @@ a.close.disabled {
   width: 100%;
   overflow: hidden;
 }
+.carousel-item img {
+  max-width: 100%;
+  max-height: 600px; /* Ajusta esta altura según tu preferencia */
+  margin: auto; /* Centra la imagen horizontalmente */
+}
+
+.carousel-caption {
+  max-width: 500px; /* Ajusta este ancho según tu preferencia */
+  margin: auto; /* Centra el contenido horizontalmente */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto; /* Revierte el ancho a su valor predeterminado */
+}
+
 
 .carousel-inner::after {
   display: block;
@@ -6181,7 +6197,7 @@ a.close.disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 10%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
