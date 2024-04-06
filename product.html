@@ -8,6 +8,13 @@
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/js/product.js" async></script>
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -24,6 +31,10 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
+
+    <!-- JavaScrpt Configuration -->
+    <script src="app.js" async></script>
 </head>
 
 <body>
@@ -64,9 +75,9 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link ">Inicio</a>
                         <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
-                        <a href="product.html" class="nav-item nav-link">Productos</a>
+                        <a href="product.html" class="nav-item nav-link active">Productos</a>
                     </div>
                     <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
                         <h1 class="m-0 display-5 text-primary"><span class="text-secondary">Dulce</span>Sabor</h1>
@@ -86,11 +97,11 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3 mt-lg-5">Product</h1>
+            <h1 class="text-white display-3 mt-lg-5">Productos</h1>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Product</p>
+                <p class="m-0">Products</p>
             </div>
         </div>
     </div>
@@ -98,116 +109,133 @@
 
 
     <!-- Products Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h1 class="section-title position-relative text-center mb-5">Best Prices We Offer For Ice Cream Lovers</h1>
-                </div>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Pastel de chocolate</span>
+                <img src="img/1Chocolate.jpg" alt="" class="img-item">
+                <span class="precio-item">$250</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-4.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-5.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pb-2">
-                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                            <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                        </div>
-                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                        <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="" class="btn btn-primary py-3 px-5">Load More</a>
-                </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de fresas con crema</span>
+                <img src="img/2Pastel.jpeg" alt="" class="img-item">
+                <span class="precio-item">$200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel imposible (chocoflan)</span>
+                <img src="img/3Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de frambuesa</span>
+                <img src="img/4Pastel.PNG" alt="" class="img-item">
+                <span class="precio-item">$280</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de moras con queso crema</span>
+                <img src="img/5Pastel.PNG" alt="" class="img-item">
+                <span class="precio-item">$280</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de coco con queso crema</span>
+                <img src="img/6Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$280</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de nuez con queso crema</span>
+                <img src="img/7Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de zanahoria</span>
+                <img src="img/8Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de tres leches</span>
+                <img src="img/9Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$250</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de rompope</span>
+                <img src="img/10Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de galleta oreo</span>
+                <img src="img/11Pastel.PNG" alt="" class="img-item">
+                <span class="precio-item">$290</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel cajeta</span>
+                <img src="img/12Pastel.png" alt="" class="img-item">
+                <span class="precio-item">$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>
-    </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2 class="mi">Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
     <!-- Products End -->
 
 
